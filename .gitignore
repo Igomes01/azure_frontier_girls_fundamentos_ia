@@ -1,0 +1,134 @@
+# ========================================
+# Segurança - NUNCA compartilhe estes arquivos!
+# ========================================
+
+# Credenciais e chaves de API
+.env
+*.env
+.env.local
+.env.*.local
+
+# Configurações locais
+config.json
+secrets.json
+
+# ========================================
+# Python
+# ========================================
+
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# Jupyter Notebook
+# ========================================
+
+# Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Notebook temporary files
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# ========================================
+# IDEs e Editores
+# ========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# ========================================
+# Sistema Operacional
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ========================================
+# Arquivos Gerados
+# ========================================
+
+# Arquivos de teste gerados pelos notebooks
+receita_*.txt
+roteiro_*.txt
+*.txt
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ========================================
+# Azure
+# ========================================
+
+# Azure Functions
+local.settings.json
+.python_packages/
+
+# ========================================
+# Outros
+# ========================================
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
