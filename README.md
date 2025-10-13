@@ -32,16 +32,23 @@ Antes de começar, você vai precisar:
 - Crie uma conta gratuita: [Portal Azure](https://azure.microsoft.com/free/)
 - Você ganha créditos grátis para testar!
 
-### 3. Azure CLI instalado
+### 3. Git instalado
+- Git: Sistema de controle de versão necessário para clonar o repositório
+- [Download Git](https://git-scm.com/downloads)
+- **Windows**: Durante a instalação, aceite as opções padrão
+- **Mac**: Git já vem instalado ou use `brew install git`
+- **Linux**: Use `sudo apt install git` (Ubuntu) ou equivalente
+
+### 4. Azure CLI instalado
 - Azure CLI (Command-Line Interface): Ferramenta essencial para autenticação com Azure
 - [Download Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli)
 - Após instalar, você precisará fazer login com `az login`
 
-### 4. Editor de Código
+### 5. Editor de Código
 - Visual Studio Code (recomendado): [Download VS Code](https://code.visualstudio.com/)
 - Extensão Jupyter para VS Code
 
-### 5. Conhecimentos Básicos
+### 6. Conhecimentos Básicos
 - Python básico (variáveis, funções, imports)
 - Vontade de aprender! 🎓
 
@@ -49,12 +56,19 @@ Antes de começar, você vai precisar:
 
 **Clique em ctrl+' no VsCode para abrir o prompt de comando e rodar os seguintes codigos:**
 
-### Passo 1: Clone o Repositório
+### Passo 1: Obtenha os Arquivos do Projeto
 
+**Opção A: Usando Git (Recomendado)**
 ```bash
 git clone https://github.com/Igomes01/azure_frontier_girls_fundamentos_ia.git
 cd azure_frontier_girls_fundamentos_ia
 ```
+
+**Opção B: Download direto (se não tiver Git instalado)**
+1. Vá para: https://github.com/Igomes01/azure_frontier_girls_fundamentos_ia
+2. Clique no botão verde "**Code**" → "**Download ZIP**"
+3. Extraia o arquivo ZIP em uma pasta de sua escolha
+4. Abra o terminal na pasta extraída
 
 ### Passo 2: Crie um Ambiente Virtual
 
@@ -204,6 +218,13 @@ azure_frontier_girls_fundamentos_ia/
    - Copie o endpoint do projeto → vai para `AZURE_AI_PROJECT_ENDPOINT`
 
 ## 🛠️ Troubleshooting (Solucionando Problemas)
+
+### Erro: "git command not found" ou "'git' is not recognized"
+**Solução:** 
+- Certifique-se de que instalou o Git: [Download Git](https://git-scm.com/downloads)
+- Após instalar, **reinicie completamente o VS Code e o terminal**
+- Teste executando: `git --version`
+- **Alternativa**: Use a Opção B (Download ZIP) se não conseguir instalar o Git
 
 ### Erro: "Azure CLI not found" ou "az command not found"
 **Solução:** 
